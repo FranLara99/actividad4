@@ -44,6 +44,7 @@ public class AleatorioEmple {
 		} else 
 			System.out.println(" ---------FICHERO VACÍO --------------------");
 	}// fin verporconsola
+	//comentario para sincronizar con el remoto
 
 	public static void crear() throws IOException {
 		System.out.println("Añado una línea de visualización para crear()");
