@@ -44,6 +44,7 @@ public class AleatorioEmple {
 	}// fin verporconsola
 
 	public static void crear() throws IOException {
+		System.out.println("Añado una línea de visualización para crear()");
 		File fichero = new File("AleatorioEmple.dat");
 		RandomAccessFile file = new RandomAccessFile(fichero, "rw");
 		String apellido[] = { "FERNANDEZ", "GIL", "LOPEZ", "RAMOS", "SEVILLA", "CASILLA", "REY" };
